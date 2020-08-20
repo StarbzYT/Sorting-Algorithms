@@ -23,3 +23,7 @@ Understand why it is important to learn these simplier sorting algorithms
 Bubble Sort:
 
 A sorting algorithm where the largest values bubble up to the top! A key functionality when bubble sorting is swapping. When the values are compared (shifting greater with less), swap the two values and continue comparing until the array is sorted.
+
+Time Complexity (Bubble Sort):
+
+Since a nested loop is used, the TC is O(n^2) (worst/average case). However, if the list is almost sorted (best case), then we iterate through the list in a linear fashion, only going through it one more time AFTER it is sorted. As a result, the TC can be represented as O(2n), which is simplfied to O(n).
