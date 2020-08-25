@@ -31,3 +31,7 @@ Since a nested loop is used, the TC is O(n^2) (worst/average case). However, if 
 Selection Sort:
 
 Similar to bubble sort, but instead of first placing large values into sorted position, it places small values in sorted position.
+
+Time Complexity:
+
+Number of comparisons for each item is the same as bubble sort , BUT it requires less swapping (only once per cycle). A nested for loop means that as the size of the input grows, the time grows roughly in proportion to n^2 (input squared). Therefore the time complexity for Selection Sort can be summarized as O(n^2).
