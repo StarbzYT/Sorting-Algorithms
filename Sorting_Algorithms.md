@@ -35,3 +35,7 @@ Similar to bubble sort, but instead of first placing large values into sorted po
 Time Complexity:
 
 Number of comparisons for each item is the same as bubble sort , BUT it requires less swapping (only once per cycle). A nested for loop means that as the size of the input grows, the time grows roughly in proportion to n^2 (input squared). Therefore the time complexity for Selection Sort can be summarized as O(n^2).
+
+Insertion Sort:
+
+Builds up the sort by gradually creating a larger left half which is always sorted. (inserts values into correct index instead of swapping once through each cycle)
