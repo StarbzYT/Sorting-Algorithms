@@ -32,10 +32,18 @@ Selection Sort:
 
 Similar to bubble sort, but instead of first placing large values into sorted position, it places small values in sorted position.
 
-Time Complexity:
+Time Complexity (SS):
 
 Number of comparisons for each item is the same as bubble sort , BUT it requires less swapping (only once per cycle). A nested for loop means that as the size of the input grows, the time grows roughly in proportion to n^2 (input squared). Therefore the time complexity for Selection Sort can be summarized as O(n^2).
 
 Insertion Sort:
 
 Builds up the sort by gradually creating a larger left half which is always sorted. (inserts values into correct index instead of swapping once through each cycle)
+
+Time Complexity (IS):
+
+Quadratic time (nested loop), therefore, O(n^2) similiar to the ones above (worst case: [4, 3, 2, 1]). However, if the list is nearly sorted ([1, 2, 3, 4, -1]), Insertion Sort is by far better than the other elementary sorting algorithms as it only needs to insert the values at the correct index. For online algorithms (data that is being updated instead of already being set in stone), Insertion Sort does not care were the unsorted value(s) is/are because it only needs to insert it/them into the correct place.
+
+Space Complexity (all):
+
+Bubble, Selection, and Insertion sort are all O(1) or constant space for space complexity. None require copies of the given list or assigning a variable for each index.
