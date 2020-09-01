@@ -76,3 +76,9 @@ Uses divide and conquer method by spliting the arrays until they are all one ele
 History:
 
 Most implementations produce a stable sort, which means that the order of equal elements is the same in the input and output. Merge sort is a divide and conquer algorithm that was invented by John von Neumann in 1945.
+
+Merging Arrays/Lists:
+
+In order to implement merge sort, it is useful to first implement a function responsible for merging two sorted arrays
+Given two arrays, which are sorted, this helper function should create a new array which is also sorted, and consists of all of the elements in the two input arrays
+This function should run in O(n + m) time and O(n + m) space (two inputs, n and m) and should NOT modify the parameters passed to it.
