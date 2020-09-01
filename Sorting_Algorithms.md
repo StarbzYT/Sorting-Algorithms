@@ -68,3 +68,11 @@ Faster Sorts:
 There is a family of sorting algorithms that can improve time complexity from O(n^2) to O(n log n or log n^n)
 There is a tradeoff between efficiency and simplicity
 The more efficient algorithms are much less simple, and generally take longer to understand
+
+Merge Sort:
+
+Uses divide and conquer method by spliting the arrays until they are all one element each and MERGES them back together. It is a combination of two things - merging and sorting (exploits the fact that arrays of 0 or 1 element(s) are always sorted)! Works by decomposing an array into smaller arrays of 0 or 1 element(s), then building up a newly sorted array.
+
+History:
+
+Most implementations produce a stable sort, which means that the order of equal elements is the same in the input and output. Merge sort is a divide and conquer algorithm that was invented by John von Neumann in 1945.
