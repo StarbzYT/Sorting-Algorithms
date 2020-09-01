@@ -1,4 +1,4 @@
---------- Elementary Sorting Algorithms ---------
+----------------- Elementary Sorting Algorithms ----------------
 
 What is sorting?
 
@@ -15,6 +15,7 @@ Sorting is an incredibly common task, so it is good to know how it works (very c
 There are many different ways to sort things, and different techniques have their own advantages and disadvantages (some have better/worse perfomances depending on the nature of the collection).
 
 Objectives:
+
 Implement bubble sort
 Implement selection sort
 Implement insertion sort
@@ -47,3 +48,23 @@ Quadratic time (nested loop), therefore, O(n^2) similiar to the ones above (wors
 Space Complexity (all):
 
 Bubble, Selection, and Insertion sort are all O(1) or constant space for space complexity. None require copies of the given list or assigning a variable for each index.
+
+--------------- Intermediate Sorting Algorithms --------------
+
+Objectives:
+
+Understand the limitations of the sorting algorithms we have learned so far (slow...)
+Implement merge sort
+Implement quick sort
+Implement radix sort
+
+Why learn this?
+
+The sorting algorithms we have learned so far do not scale well
+Try out bubble sort on an array of 100000 elements, it will take quite SOME time.
+
+Faster Sorts:
+
+There is a family of sorting algorithms that can improve time complexity from O(n^2) to O(n log n or log n^n)
+There is a tradeoff between efficiency and simplicity
+The more efficient algorithms are much less simple, and generally take longer to understand
