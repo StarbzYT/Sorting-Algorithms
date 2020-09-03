@@ -32,7 +32,8 @@ def merge(arr1, arr2):  # takes in two sorted arrays
     
     return results  # final (one) sorted arr/list
 
-
-print(merge([1, 5, 17, 21], [100, 350]))  # each list MUST be sorted for this to work/combine into one list
+# to be used for merge sort algo
+if __name__ == '__main__':
+    print(merge([1, 5, 17, 21], [100, 350]))  # each list MUST be sorted for this to work/combine into one list
 
 
