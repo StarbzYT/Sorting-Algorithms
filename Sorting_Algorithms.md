@@ -86,3 +86,7 @@ This function should run in O(n + m) time and O(n + m) space (two inputs, n and 
 Time and Space Complexity (Merge Sort):
 
 The best, average, and worst case for the time complexity of Merge Sort is, in short, O(n log n). Take an array of 8 elements. We have to have O(log n) decompositions and O(n) comparisons per decomposition. In other words, how many steps does it take to break down an array of 8 elements (to one element each). With a base of 2, it takes 3 steps, since 2^3 is 8! Therefore, the time complexity of Merge Sort is indeed O(n log n). As for the space complexity, merge sort does require more memory to make a new sorted array compared to Bubble, Selection, and Insertion sort. As the length of input grows, merge sort requires n number of items to make a new array. As a result, the space complexity becomes O(n).
+
+Quick Sort:
+
+Like Merge Sort, Quick Sort exploits the fact that arrays of 0 or 1 element are always sorted. It works by selecting one element (called the "pivot") and finding the index where the pivot should end up in the sorted array. Once the pivot is positioned appropriately, Quick Sort can be applied on either side of the pivot.
