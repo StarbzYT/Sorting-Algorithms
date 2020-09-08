@@ -90,3 +90,7 @@ The best, average, and worst case for the time complexity of Merge Sort is, in s
 Quick Sort:
 
 Like Merge Sort, Quick Sort exploits the fact that arrays of 0 or 1 element are always sorted. It works by selecting one element (called the "pivot") and finding the index where the pivot should end up in the sorted array. Once the pivot is positioned appropriately, Quick Sort can be applied on either side of the pivot.
+
+Pivot Helper:
+
+Before implementing Quick Sort, it is useful to first implement a function responsible arranging elements in an array on either side of a pivot. Given an array, this helper function should designate an element as the pivot. It should then rearrange elements in the array so that all values less than the pivot are moved to the left of it, and all values greater are moved to the right of it. The order of elements on either side of the pivot does not matter! The helper should do this IN PLACE, that is, it should not create a new array. When complete, the helper should return the index of the pivot.
